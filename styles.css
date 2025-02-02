@@ -1,0 +1,174 @@
+/* Opšti stilovi */
+body {
+    font-family: 'Roboto', sans-serif; /* Postavljanje fonta */
+    margin: 0;
+    padding: 0;
+}
+
+/* Stilizacija header-a */
+/* Element selektor: header, nav ul, section, aside i footer */
+header {
+    background: linear-gradient(to right, #003366, #006699);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+header img {
+    float: left;
+    margin-right: 10px;
+    width: 140px;
+    height: auto;
+    background-color: transparent;
+    position: absolute;
+    left: 20px;
+}
+
+header h1 {
+    flex: 1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f4f4f4;
+}
+
+/* Stilizacija navigacije */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul li {
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+/* Pseudo klasa selektor */
+nav ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+/* Kontejner za glavni sadržaj */
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    width: 75%;
+    margin-right: 20px;
+}
+
+/* Klasa selektor */
+.float-box {
+    float: left; /* Dodavanje float svojstva */
+    width: 100%;
+    height: 50px;
+    background-color: #00669988;
+    border: 1px solid #006699;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+
+aside.info-box {
+    width: 25%;
+    background-color: #006699;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative; /* Relative pozicioniranje */
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    padding: 10px;
+}
+
+.footer-info {
+    position: absolute; /* Absolute pozicioniranje */
+    top: 10px;
+    right: 10px;
+    color: white;
+}
+
+/* Stilizacija forme */
+/*ID selektor*/
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #00669988;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+}
+
+button[type="submit"]:hover {
+    background-color: #006699;
+}
