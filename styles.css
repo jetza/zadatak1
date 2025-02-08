@@ -92,11 +92,22 @@ section {
 
 /* Klasa selektor */
 .float-box {
-    float: left; /* Dodavanje float svojstva */
-    width: 100%;
+    float: left;
+    width: 68%;
     height: 50px;
     background-color: #00669988;
     border: 1px solid #006699;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+
+.float-box-two {
+    float: right;
+    width: 30%;
+    height: 50px;    
+    background-color: #006699;
+    border: 1px solid #00669988;
     border-radius: 5px;
     color: white;
     text-align: center;
